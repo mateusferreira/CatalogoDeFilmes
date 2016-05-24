@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Catalog Movie Login</title>
+</head>
+<body>
+      
+    <a href="#login" id="login-button">Login</a>
+    
+    <div id="login">
+        <a href="#" class="close">&times;</a>
+        <div style="height:20%"></div>
+        
+        <div id="login-inputs">
+          <input type="text" placeholder="Nome de usuário" name="usuario"><br />
+          <input type="password" placeholder="Senha" name="senha">
+        </div>
+        <div id="enviar">
+          <input type="button" onclick="Login()" class="botao" value="Login">
+        </div>
+        
+    </div>
+    
+    <div id="mask" onclick="document.location='#';"></div>
+    
+   <a href="searchScreen.html">Search Ttitle</a>
+   
+    <script src="js/popupScript.js"></script> 
+</body>
+</html>
