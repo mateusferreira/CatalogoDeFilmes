@@ -10,3 +10,18 @@ function Login() {
   }
   if (done==0) { alert("Dados incorretos, tente novamente"); }
 }
+
+function openPDF (arquivo) {
+
+ }
+/* Open when someone clicks on the span element */
+function openNav() {
+    document.getElementById("myNav").style.width = "70%";
+    document.getElementById("myNav").style.border = "3px solid rgb(170,216,184)";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+    document.getElementById("myNav").style.border = "0px";
+}
